@@ -1,9 +1,7 @@
-Configure your Node.js Applications
-===================================
+Configure your Node.js Applications Lazily
+==========================================
 
-[![NPM](https://nodei.co/npm/config.svg?downloads=true&downloadRank=true)](https://nodei.co/npm/config/)&nbsp;&nbsp;
-[![Build Status](https://secure.travis-ci.org/lorenwest/node-config.svg?branch=master)](https://travis-ci.org/lorenwest/node-config)&nbsp;&nbsp;
-[release notes](https://github.com/lorenwest/node-config/blob/master/History.md)
+This is a fork of the [`config`](https://github.com/lorenwest/node-config) module. The only difference is that you need to call the function to get the latest config, so `require('config-lazily')()`. This allows you to use the `util` methods within your config files.
 
 Introduction
 ------------
