@@ -1,7 +1,7 @@
 Configure your Node.js Applications Lazily
 ==========================================
 
-This is a fork of the [`config`](https://github.com/lorenwest/node-config) module. The only difference is that you need to call the function to get the latest config, so `require('config-lazily')()`. This allows you to use the `util` methods within your config files.
+This is a fork of the [`config`](https://github.com/lorenwest/node-config) module. The only difference is that you need to call the function to get the latest config, so `require('config-lazy')()`. This allows you to use the `util` methods within your config files.
 
 Introduction
 ------------
